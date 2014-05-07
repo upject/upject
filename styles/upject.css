@@ -1,0 +1,310 @@
+/*
+Typography / Basics
+---------------------------------------------*/
+
+ /**
+ * @license
+ * MyFonts Webfont Build ID 2723293, 2014-01-13T08:20:14-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Avenir 85 Heavy by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/85-heavy/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * Licensed pageviews: 250,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2723293
+ * 
+ * © 2014 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+/*@import url("//hello.myfonts.net/count/298ddd");*/
+  
+/*@font-face {font-family: 'AvenirLTStd-Heavy';src: url('fonts/avenir/298DDD_0_0.eot');src: url('fonts/avenir/298DDD_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/avenir/298DDD_0_0.woff') format('woff'),url('fonts/avenir/298DDD_0_0.ttf') format('truetype');}*/
+
+
+/*
+General styles
+---------------------------------------------*/
+
+
+body {
+  /*background: #303030;*/
+  color: #444;
+
+  -webkit-font-smoothing: antialiased;
+  line-height: 30px;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.darker {
+  background: #f6f6f6;
+}
+
+a {
+  /*color: #18cfca;*/
+}
+
+a:hover {
+  text-decoration: none;
+/*  color: #28fff7;*/
+}
+
+/*
+Big Teaser (coming this April)
+---------------------------------------------*/
+
+
+.row p.big-teaser {
+  /*font-family: 'Josefin Sans';*/
+  /*font-weight: 600;*/
+  padding-top: 30px;
+  padding-bottom: 20px;
+  /*color: #fff;*/
+
+  font-size: 30px;
+}
+
+.row p.big-teaser a {
+  /*color: rgba(255,255,255,1);*/
+}
+
+.row p.big-teaser a:hover {
+  /*color: rgba(255,255,255,1);*/
+}
+
+
+/*
+Download button
+---------------------------------------------*/
+
+.download-button {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  background: #222;
+  color: rgba(255,255,255,0.9);
+  font-size: 20px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.download-button:hover {
+  color: rgba(255,255,255,1);
+  background: #000;
+}
+
+
+/*
+Teaser
+---------------------------------------------*/
+
+
+
+.section.teaser {
+  font-size: 22px;
+  /*background-image: url(/images/teaser-background.jpeg);*/
+  background-position: 0px -200px;
+  background-size: 100%;
+
+  /*background: #125062;*/
+
+  background-repeat: no-repeat;
+  padding-bottom: 0px
+}
+
+.section.teaser .row {
+  padding: 10px 0;
+  padding-bottom: 40px;
+}
+
+
+.teaser h1 a {
+  /*font-family: 'Josefin Sans';*/
+  font-size: 30px;
+  font-weight: normal;
+  /*color: white;*/
+}
+
+.teaser .feature span {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.articles .date {
+  font-size: 12px;
+  /*color: rgba(255,255,255,0.4);*/
+
+}
+
+/*
+Header
+---------------------------------------------*/
+
+
+.header .header-inner {
+  overflow: hidden;
+  line-height: 40px;
+}
+
+.header p {
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+.header .header-inner .upject-logo {
+  /*color: white;*/
+  width: 211px;
+  display: block;
+  margin: 0 auto;
+}
+
+.upject-logo img {
+  width: 211px;
+}
+
+.header .header-inner .menu {
+  float: right;
+}
+
+.header .header-inner .menu .menu-entry {
+
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.4);
+  float: left;
+  display: block;
+  /*margin-left: 10px;*/
+  padding: 2px 7px;
+  /*border-radius: 5px;*/
+}
+
+.header .header-inner .menu .menu-entry.active {
+  color: white;
+  /*background: rgba(0,0,0,0.5);*/
+}
+
+
+.header .header-inner .menu .menu-entry:hover {
+  color: white;
+}
+
+
+
+.header .lead {
+  font-size: 18px;
+
+}
+
+.header h1 {
+  /*font-family: 'Josefin Sans';*/
+  font-weight: normal;
+  font-size: 26px;
+}
+
+.header .row p {
+  /*color: rgba(255,255,255,0.6);*/
+}
+
+/* Mission */
+
+.row.heading {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 25px;
+  font-weight: normal;
+/*  font-family: 'Josefin Sans';
+  font-weight: 700;*/
+}
+
+.row.heading .feature {
+  font-family: 'Open Sans';
+  font-weight: normal;
+}
+
+.row.heading p {
+  font-family: 'Open Sans';
+  font-weight: normal;
+}
+
+.row h3 {
+  font-weight: 600;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.row p {
+  /*font-family: 'Source Sans Pro';*/
+  font-size: 16px;
+  /*color: rgba(255,255,255,0.6);*/
+}
+
+img {
+  width: 100%;
+}
+
+video {
+  width: 100%;
+}
+
+
+.row p.attribution {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+/*
+Voices 
+---------------------------------------------*/
+
+.row blockquote {
+  font-family: Georgia;
+  font-size: 20px;
+  font-style: italic;
+  /*color: rgba(255,255,255,0.8);*/
+  border: none;
+}
+
+
+/*
+Team 
+---------------------------------------------*/
+
+.section.team .team-member {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+  background: white;
+  color: rgba(0,0,0,0.9);
+  position: relative;
+}
+
+.section.team .team-member .role {
+/*  position: absolute;
+  left: 300px;
+  top: 670px;
+  font-size: 16px;*/
+  color: rgba(0,0,0,0.6);
+  padding-bottom: 20px;
+}
+
+.section.team .team-member h3 {
+  font-size: 20px;
+  padding: 20px 0;
+  padding-bottom: 0px;
+}
+
+.section.team .team-member p {
+  color: rgba(0,0,0,0.6);
+}
