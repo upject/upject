@@ -151,6 +151,13 @@ Teaser
 Header
 ---------------------------------------------*/
 
+.top-container{
+  background-image:url('../images/flowfield.png');
+  background-repeat:no-repeat;
+  background-position:top center;
+  background-attachment:fixed;
+}
+
 
 .header .header-inner {
   overflow: hidden;
