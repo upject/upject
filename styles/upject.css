@@ -52,7 +52,7 @@ body {
 }
 
 a {
-  /*color: #18cfca;*/
+  color: #009d9dff;
 }
 
 a:hover {
@@ -171,13 +171,13 @@ Header
 
 .header .header-inner .upject-logo {
   /*color: white;*/
-  width: 211px;
+  width: 300px;
   display: block;
   margin: 0 auto;
 }
 
 .upject-logo img {
-  width: 211px;
+  width: 300px;
 }
 
 .header .header-inner .menu {
@@ -225,6 +225,9 @@ Header
 }
 
 /* Mission */
+.section.mission i{
+  color: #009d9dff;
+}
 
 .row.heading {
   padding-top: 50px;
