@@ -44,7 +44,7 @@ body {
 }
 
 .section {
-  padding: 50px 0;
+  margin-bottom: 50px;
 }
 
 .darker {
@@ -318,4 +318,26 @@ Team
 
 .section.team .team-member p {
   color: rgba(0,0,0,0.6);
+}
+
+.section .video{
+  width: 940px;
+  height: 528px;
+  border: 1px solid #aaaaaa;
+  color: #aaaaaa;
+  font-size: 10px;
+}
+
+.section h1{
+  margin-bottom: 36px;
+}
+
+.section ul li div{
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.section ul{
+  padding-left: 20px;
 }
