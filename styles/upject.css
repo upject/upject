@@ -322,10 +322,15 @@ Team
 
 .section .video{
   width: 940px;
-  min-height: 528px;
-  border: 1px solid #aaaaaa;
+  margin-top: 40px;
   color: #aaaaaa;
   font-size: 10px;
+  text-align: center;
+}
+
+.section .video video{
+  width:80%;
+  box-shadow: 0px 0px 16px 5px #aaaaaa
 }
 
 .section h1{
