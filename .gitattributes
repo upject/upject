@@ -1,0 +1,7 @@
+saleshub/videos/webshop.mp4 filter=lfs diff=lfs merge=lfs -text
+saleshub/videos/approval_process.mp4 filter=lfs diff=lfs merge=lfs -text
+saleshub/videos/data_explorer.mp4 filter=lfs diff=lfs merge=lfs -text
+saleshub/videos/dependencies.mp4 filter=lfs diff=lfs merge=lfs -text
+saleshub/videos/figures.mp4 filter=lfs diff=lfs merge=lfs -text
+saleshub/videos/proposal.mp4 filter=lfs diff=lfs merge=lfs -text
+saleshub/videos/quote.mp4 filter=lfs diff=lfs merge=lfs -text

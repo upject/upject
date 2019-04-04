@@ -322,7 +322,7 @@ Team
 
 .section .video{
   width: 940px;
-  height: 528px;
+  min-height: 528px;
   border: 1px solid #aaaaaa;
   color: #aaaaaa;
   font-size: 10px;
